@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PDepend>
   <Packages>
+    <Package name="App\Controller">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/var/www/UnoHousePHP/src/Controller/IndexController.php">IndexController</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Symfony\Bundle\FrameworkBundle\Controller</Package>
+        <Package>Symfony\Component\HttpFoundation</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
     <Package name="App">
       <Stats>
         <TotalClasses>1</TotalClasses>
@@ -17,11 +38,11 @@
       </ConcreteClasses>
       <AbstractClasses/>
       <DependsUpon>
-        <Package>Symfony\Component\HttpKernel</Package>
-        <Package>Symfony\Component\DependencyInjection</Package>
-        <Package>Symfony\Component\Config\Loader</Package>
-        <Package>Symfony\Component\Config\Resource</Package>
         <Package>Symfony\Component\Routing</Package>
+        <Package>Symfony\Component\Config\Resource</Package>
+        <Package>Symfony\Component\Config\Loader</Package>
+        <Package>Symfony\Component\DependencyInjection</Package>
+        <Package>Symfony\Component\HttpKernel</Package>
       </DependsUpon>
       <UsedBy/>
     </Package>

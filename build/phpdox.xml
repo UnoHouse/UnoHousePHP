@@ -62,7 +62,7 @@
 
             <!-- A generation process consists of one or more build tasks and of (optional) enrich sources -->
 
-            <enrich base="${basedir}/build">
+            <enrich base="${basedir}/logs">
                 <!-- @base - (Base-)Directory of datafiles used for enrich process -->
 
                 <!--<source type="...">-->
@@ -84,7 +84,7 @@
 
                 <!-- PHP Code Sniffer findings -->
                 <source type="phpcs">
-                    <file name="logs/phpcs.xml" />
+                    <file name="checkstyle.xml" />
                 </source>
 
                 <!-- PHPMessDetector -->

@@ -5,6 +5,8 @@ chmod +x /usr/local/bin/phpunit
 
 wget -O /usr/local/bin/phpcs https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar
 chmod +x /usr/local/bin/phpcs
+wget -O /usr/local/bin/phpcbf https://squizlabs.github.io/PHP_CodeSniffer/phpcbf.phar
+chmod +x /usr/local/bin/phpcbf
 
 wget -O /usr/local/bin/phploc https://phar.phpunit.de/phploc.phar
 chmod +x /usr/local/bin/phploc

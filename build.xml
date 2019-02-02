@@ -67,7 +67,7 @@
          unless="lint.done"
          description="Perform syntax check of sourcecode files">
   <apply executable="php" taskname="lint">
-   <arg value="-l src" />
+   <arg value="-l src/" />
 
    <fileset dir="${basedir}/src">
     <include name="*.php" />
@@ -143,7 +143,7 @@
          depends="prepare"
          description="Perform project mess detection using PHPMD and log result in XML format. Intended for usage within a continuous integration environment.">
   <exec executable="${phpmd}" taskname="phpmd">
-   <arg path="${basedir}/src/" />
+   <arg path="${basedir}//src" />
    <arg value="xml" />
    <arg path="${basedir}/build/phpmd.xml" />
    <arg value="--reportfile" />
@@ -176,9 +176,9 @@
    <arg value="--report-file=${basedir}/build/logs/checkstyle.xml" />
    <arg value="--standard=PSR2" />
    <arg value="--extensions=php" />
-   <arg value="--ignore=autoload.php" />
-   <arg path="${basedir}/../src" />
-   <arg path="${basedir}/../tests" />
+   <!--<arg value="&#45;&#45;ignore=autoload.php" />-->
+   <arg path="${basedir}/src" />
+   <arg path="${basedir}/tests" />
   </exec>
 
   <property name="phpcs.done" value="true"/>
