@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="App\Kernel" namespace="App" name="Kernel" abstract="false" final="false" start="12" end="48">
+  <file path="/var/www/UnoHousePHP/build/../src" file="Kernel.php" realpath="/var/www/UnoHousePHP/src/Kernel.php" size="1856" time="2019-02-01T22:23:21+00:00" unixtime="1549059801" sha1="cd8460c7ebcf06e09266e79ac1faf662af8bd481" relative="Kernel.php"/>
+  <extends full="Symfony\Component\HttpKernel\Kernel" namespace="Symfony\Component\HttpKernel" name="Kernel" unresolved="true"/>
+  <uses full="Symfony\Bundle\FrameworkBundle\Kernel\MicroKernelTrait" namespace="Symfony\Bundle\FrameworkBundle\Kernel" name="MicroKernelTrait" start="14" end="14" unresolved="true"/>
+  <constant type="string" name="CONFIG_EXTS" value="'.{php,xml,yaml,yml}'"/>
+  <method name="registerBundles" start="18" end="26" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="configureContainer" start="28" end="38" abstract="false" final="false" static="false" visibility="protected">
+    <parameter name="container" byreference="false" type="object">
+      <type full="Symfony\Component\DependencyInjection\ContainerBuilder" namespace="Symfony\Component\DependencyInjection" name="ContainerBuilder"/>
+    </parameter>
+    <parameter name="loader" byreference="false" type="object">
+      <type full="Symfony\Component\Config\Loader\LoaderInterface" namespace="Symfony\Component\Config\Loader" name="LoaderInterface"/>
+    </parameter>
+  </method>
+  <method name="configureRoutes" start="40" end="47" abstract="false" final="false" static="false" visibility="protected">
+    <parameter name="routes" byreference="false" type="object">
+      <type full="Symfony\Component\Routing\RouteCollectionBuilder" namespace="Symfony\Component\Routing" name="RouteCollectionBuilder"/>
+    </parameter>
+  </method>
+</class>
