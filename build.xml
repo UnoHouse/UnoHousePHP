@@ -43,7 +43,7 @@
  <target name="clean"
          unless="clean.done"
          description="Cleanup build artifacts">
-  <delete dir="${basedir}/build/api"/>
+  <delete dir="${basedir}/build/html"/>
   <delete dir="${basedir}/build/coverage"/>
   <delete dir="${basedir}/build/logs"/>
   <delete dir="${basedir}/build/pdepend"/>
@@ -55,7 +55,7 @@
          unless="prepare.done"
          depends="clean"
          description="Prepare for build">
-  <mkdir dir="${basedir}/build/api"/>
+  <mkdir dir="${basedir}/build/html"/>
   <mkdir dir="${basedir}/build/coverage"/>
   <mkdir dir="${basedir}/build/logs"/>
   <mkdir dir="${basedir}/build/pdepend"/>
