@@ -25,7 +25,7 @@ class IndexController extends AbstractController
     public function indexAction(Request $request)
     {
         return $this->render("basic/index.html.twig");
-    }}}}
+    }
 
     /**
      * @Route("/user_profile_data")
@@ -33,7 +33,6 @@ class IndexController extends AbstractController
     public function userProfileDataAction()
     {
         return new JsonResponse($this->getUser());
-        for nic z tego;
     }
 
     /**
