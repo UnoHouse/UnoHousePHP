@@ -2,34 +2,34 @@
 <phploc>
   <directories>1</directories>
   <files>2</files>
-  <loc>112</loc>
-  <lloc>35</lloc>
-  <llocClasses>16</llocClasses>
-  <llocFunctions>3</llocFunctions>
+  <loc>111</loc>
+  <lloc>34</lloc>
+  <llocClasses>18</llocClasses>
+  <llocFunctions>0</llocFunctions>
   <llocGlobal>16</llocGlobal>
   <cloc>14</cloc>
-  <ccn>3</ccn>
+  <ccn>2</ccn>
   <ccnMethods>2</ccnMethods>
   <interfaces>0</interfaces>
   <traits>0</traits>
   <classes>2</classes>
   <abstractClasses>0</abstractClasses>
   <concreteClasses>2</concreteClasses>
-  <functions>2</functions>
-  <namedFunctions>2</namedFunctions>
+  <functions>0</functions>
+  <namedFunctions>0</namedFunctions>
   <anonymousFunctions>0</anonymousFunctions>
-  <methods>4</methods>
-  <publicMethods>2</publicMethods>
+  <methods>6</methods>
+  <publicMethods>4</publicMethods>
   <nonPublicMethods>2</nonPublicMethods>
-  <nonStaticMethods>4</nonStaticMethods>
+  <nonStaticMethods>6</nonStaticMethods>
   <staticMethods>0</staticMethods>
   <constants>1</constants>
   <classConstants>1</classConstants>
   <globalConstants>0</globalConstants>
   <testClasses>0</testClasses>
   <testMethods>0</testMethods>
-  <ccnByLloc>0.085714285714286</ccnByLloc>
-  <llocByNof>1.5</llocByNof>
+  <ccnByLloc>0.058823529411765</ccnByLloc>
+  <llocByNof>0</llocByNof>
   <methodCalls>15</methodCalls>
   <staticMethodCalls>0</staticMethodCalls>
   <instanceMethodCalls>15</instanceMethodCalls>
@@ -43,15 +43,15 @@
   <classCcnMin>1</classCcnMin>
   <classCcnAvg>2</classCcnAvg>
   <classCcnMax>3</classCcnMax>
-  <classLlocMin>1</classLlocMin>
-  <classLlocAvg>8</classLlocAvg>
+  <classLlocMin>3</classLlocMin>
+  <classLlocAvg>9</classLlocAvg>
   <classLlocMax>15</classLlocMax>
   <methodCcnMin>1</methodCcnMin>
-  <methodCcnAvg>1.5</methodCcnAvg>
+  <methodCcnAvg>1.3333333333333</methodCcnAvg>
   <methodCcnMax>3</methodCcnMax>
   <methodLlocMin>1</methodLlocMin>
-  <methodLlocAvg>3.5</methodLlocAvg>
+  <methodLlocAvg>2.6666666666667</methodLlocAvg>
   <methodLlocMax>7</methodLlocMax>
   <namespaces>2</namespaces>
-  <ncloc>98</ncloc>
+  <ncloc>97</ncloc>
 </phploc>

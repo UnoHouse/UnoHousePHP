@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <index xmlns="http://xml.phpdox.net/src" basedir="/var/www/UnoHousePHP/src">
+  <namespace name="App\Controller">
+    <class name="IndexController" src="Controller/IndexController.php" xml="classes/App_Controller_IndexController.xml"/>
+  </namespace>
   <namespace name="App">
     <class name="Kernel" src="Kernel.php" xml="classes/App_Kernel.xml"/>
   </namespace>

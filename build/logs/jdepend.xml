@@ -41,8 +41,8 @@
         <Package>Symfony\Component\Routing</Package>
         <Package>Symfony\Component\Config\Resource</Package>
         <Package>Symfony\Component\Config\Loader</Package>
-        <Package>Symfony\Component\DependencyInjection</Package>
         <Package>Symfony\Component\HttpKernel</Package>
+        <Package>Symfony\Component\DependencyInjection</Package>
       </DependsUpon>
       <UsedBy/>
     </Package>
